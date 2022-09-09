@@ -1,0 +1,35 @@
+/* Write your CSS here */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+     display: flex;
+     height: 100vh;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: #93c5fd;
+    text-align: center;
+
+}
+.countries-capitals{
+    background-color: azure;
+height: 60%;
+width: 40%;
+padding: 5rem;
+
+}
+h1{
+    color: #323f4b;
+}
+label{
+    font-size: 12px;
+font-weight: bold;
+}
+.country{
+    color: blue;
+    font-weight: bold;
+    
+}
